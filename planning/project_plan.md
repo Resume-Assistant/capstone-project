@@ -38,24 +38,24 @@ https://www.figma.com/file/OY1zfc1y2imnKPiEDKvzcO/Website-Wireframing-Template-%
 
 Describe your app's data model using diagrams or tables
 
-  |Users Table|  CATEGORIES                                        |            
+  |Users Table|CATEGORIES                                        |            
   |---------------------------------------------------------------------------------                 
-  |id         |  SERIAL PRIMARY KEY                                |
-  |username   |  TEXT                                              |
-  |password   |  TEXT                                              |
-  |first_name |  TEXT                                              |
-  |last_name  |  TEXT                                              |
-  |email TEXT |  NOT NULL UNIQUE CHECK (position('@' IN email) > 1)|
-  |created_at |  TIMESTAMP                                         |
-  |updated_at |  TIMESTAMP                                         |
+  |id         |SERIAL PRIMARY KEY                                |
+  |username   |TEXT                                              |
+  |password   |TEXT                                              |
+  |first_name |TEXT                                              |
+  |last_name  |TEXT                                              |
+  |email TEXT |NOT NULL UNIQUE CHECK (position('@' IN email) > 1)|
+  |created_at |TIMESTAMP                                         |
+  |updated_at |TIMESTAMP                                         |
 
 
-  |Resume Table:   |  CATEGORIES                     |               
+  |Resume Table    |CATEGORIES                      |               
   |-------------------------------------------------------------
-  |id              | SERIAL PRIMARY KEY              |
-  |url             | TEXT                            |
-  |action_verbs    | JSON                            |
-  |user_id INTEGER | FOREIGN KEY REFERENCES users(id)| 
+  |id              |SERIAL PRIMARY KEY              |
+  |url             |TEXT                            |
+  |action_verbs    |JSON                            |
+  |user_id INTEGER |FOREIGN KEY REFERENCES users(id)| 
 
 ## Endpoints
 
