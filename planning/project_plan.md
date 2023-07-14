@@ -38,7 +38,7 @@ https://www.figma.com/file/OY1zfc1y2imnKPiEDKvzcO/Website-Wireframing-Template-%
 
 Describe your app's data model using diagrams or tables
 
-  |Users Table|                                                    |            
+  |Users Table|  CATEGORIES                                        |            
   |-----------------------------------------------------------------                 
   |id         |  SERIAL PRIMARY KEY                                |
   |username   |  TEXT                                              |
@@ -50,7 +50,7 @@ Describe your app's data model using diagrams or tables
   |updated_at |  TIMESTAMP                                         |
 
 
-  |Resume Table:   |                                 |               
+  |Resume Table:   |  CATEGORIES                     |               
   |---------------------------------------------------
   |id              | SERIAL PRIMARY KEY              |
   |url             | TEXT                            |
