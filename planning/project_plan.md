@@ -38,16 +38,16 @@ https://www.figma.com/file/OY1zfc1y2imnKPiEDKvzcO/Website-Wireframing-Template-%
 
 Describe your app's data model using diagrams or tables
 
-Users Table:                                                                  
----------------------------------
-id         |  SERIAL PRIMARY KEY
-username   |  TEXT 
-password   |  TEXT 
-first_name |  TEXT 
-last_name  |  TEXT 
-email TEXT |  NOT NULL UNIQUE CHECK (position('@' IN email) > 1)
-created_at |  TIMESTAMP 
-updated_at |  TIMESTAMP 
+  |Users Table|                                                                
+  |---------------------------------                              
+  |id         |  SERIAL PRIMARY KEY
+  |username   |  TEXT 
+  |password   |  TEXT 
+  |first_name |  TEXT 
+  |last_name  |  TEXT 
+  |email TEXT |  NOT NULL UNIQUE CHECK (position('@' IN email) > 1)
+  |created_at |  TIMESTAMP 
+  |updated_at |  TIMESTAMP 
 
 
 Resume Table:
